@@ -19,6 +19,9 @@ If you only need to apply the changes to an existing vanilla ROM, see [**PATCHES
 - Route 29 : only L2-3 Sentrets during Morning/Day times.
 - Route 30 : only L4 Hoppips during Morning/Day times, only L4 Poliwags during Night time.
 - Route 31 : only L5 Bellsprouts during Morning/Day times, only L4 Poliwags during Night time.
+- Route 34 : only L10 Abras
+- Route 36 : only L5 Growlithes
+- Sprout Tower : only L3-6 Gastlies during Night Time 
 - Randomly spinning trainers (or "spinners") have been adjusted to guarantee a dodge with an average reaction time.
 - Douglas (spinner in Mahogany Gym) faces away from the player's path.
 
