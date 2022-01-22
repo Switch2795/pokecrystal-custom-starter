@@ -12,6 +12,7 @@ If you only need to apply the changes to an existing vanilla ROM, see [**PATCHES
 
 ## Main changes
 - Custom starter menu available before New Game, through the Option menu.
+- Instant Text is available in Options
 - 5 Repels given by Elm's Assistant when exiting the Lab the first time.
 - 5 Master Balls given in exchange of Poké Balls by Elm's Assistant when exiting the Lab the second time.
 - Master Balls sell for 100 each (same as Poké Ball).
