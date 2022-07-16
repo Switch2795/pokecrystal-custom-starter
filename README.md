@@ -12,7 +12,7 @@ If you only need to apply the changes to an existing vanilla ROM, see [**PATCHES
 
 ## Main changes
 - Custom starter menu available before New Game, through the Option menu.
-- Instant Text is available in Options
+- Instant Text has been Implemented
 - 5 Repels given by Elm's Assistant when exiting the Lab the first time.
 - 5 Master Balls given in exchange of Poké Balls by Elm's Assistant when exiting the Lab the second time.
 - Master Balls sell for 100 each (same as Poké Ball).
@@ -20,8 +20,9 @@ If you only need to apply the changes to an existing vanilla ROM, see [**PATCHES
 - Route 30 : only L4 Hoppips during Morning/Day times, only L4 Poliwags during Night time.
 - Route 31 : only L5 Bellsprouts during Morning/Day times, only L4 Poliwags during Night time.
 - Route 34 : only L10 Abras
-- Route 36 : only L5 Growlithes
-- Sprout Tower : only L3-6 Gastlies during Night Time 
+- Route 36 : only L5 Growlithes during Morning/Day
+- Sprout Tower : only L4 Gastly at Night
+- Ilex Forest : only L7 Psyduck at Night
 - Randomly spinning trainers (or "spinners") have been adjusted to guarantee a dodge with an average reaction time.
 - Douglas (spinner in Mahogany Gym) faces away from the player's path.
 
