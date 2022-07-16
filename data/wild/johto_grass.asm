@@ -21,13 +21,13 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 5, RATTATA
 	; nite
-	db 3, GASTLY
 	db 4, GASTLY
-	db 5, GASTLY
-	db 3, RATTATA
-	db 6, GASTLY
-	db 5, RATTATA
-	db 5, RATTATA
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
 
 	map_id SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -48,13 +48,13 @@ JohtoGrassWildMons:
 	db 5, RATTATA
 	db 5, RATTATA
 	; nite
-	db 3, GASTLY
 	db 4, GASTLY
-	db 5, GASTLY
-	db 3, RATTATA
-	db 6, GASTLY
-	db 5, RATTATA
-	db 5, RATTATA
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
+	db 4, GASTLY
 
 	map_id TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -561,13 +561,13 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	db 6, PARAS
 	; nite
-	db 5, ODDISH
-	db 5, VENONAT
-	db 7, ODDISH
 	db 7, PSYDUCK
-	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 7, PSYDUCK
+	db 7, PSYDUCK
+	db 7, PSYDUCK
+	db 7, PSYDUCK
+	db 7, PSYDUCK
+	db 7, PSYDUCK
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1395,33 +1395,54 @@ JohtoGrassWildMons:
 	db 7, RATTATA
 	db 7, RATTATA
 
-	map_id ROUTE_34
+	map_id ROUTE_34 ; CHANGE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, SNUBBULL
-	db 11, RATTATA
-	db 12, PIDGEY
+	;db 10, SNUBBULL
+	;db 11, RATTATA
+	;db 12, PIDGEY
+	;db 10, ABRA
+	;db 12, JIGGLYPUFF
+	;db 10, DITTO
+	;db 10, DITTO
 	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
 	; day
-	db 10, SNUBBULL
-	db 11, RATTATA
-	db 12, PIDGEY
+	;db 10, SNUBBULL
+	;db 11, RATTATA
+	;db 12, PIDGEY
+	;db 10, ABRA
+	;db 12, JIGGLYPUFF
+	;db 10, DITTO
+	;db 10, DITTO
 	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
 	; nite
-	db 12, DROWZEE
-	db 11, RATTATA
-	db 12, HOOTHOOT
+	;db 12, DROWZEE
+	;db 11, RATTATA
+	;db 12, HOOTHOOT
+	;db 10, ABRA
+	;db 12, JIGGLYPUFF
+	;db 10, DITTO
+	;db 10, DITTO
 	db 10, ABRA
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
-
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	db 10, ABRA
+	
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -1452,21 +1473,21 @@ JohtoGrassWildMons:
 	map_id ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, LEDYBA
-	db 4, PIDGEY
-	db 5, BELLSPROUT
 	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
 	; day
-	db 4, PIDGEY
-	db 4, PIDGEY
-	db 5, BELLSPROUT
 	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
+	db 5, GROWLITHE
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
